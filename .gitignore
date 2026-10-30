@@ -1,0 +1,23 @@
+# build output and binaries (released as zips on the Releases page)
+*.dll
+*.exe
+*.o
+*.a
+*.zip
+dist/
+ffsrc/
+ffbuild/
+ffout/
+x264/
+x264out/
+# logs and local scratch
+*.log
+*.bak
+*.orig
+__pycache__/
+# game data must never be committed
+*.pak
+*.dds
+*.mfl
+*.prx
+Data/

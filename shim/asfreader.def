@@ -1,0 +1,4 @@
+LIBRARY asfreader
+EXPORTS
+DllGetClassObject PRIVATE
+DllCanUnloadNow PRIVATE

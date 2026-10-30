@@ -1,0 +1,4 @@
+LIBRARY wmvcore
+EXPORTS
+WMCreateSyncReader
+WMCreateProfileManager

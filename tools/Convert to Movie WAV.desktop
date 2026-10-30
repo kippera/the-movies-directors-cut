@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Convert to Movie WAV
+Comment=Drop sound files here: converts to 16-bit 44.1 kHz mono WAV for The Movies
+Exec=/PATH/TO/the-movies-directors-cut/tools/to_wav.sh %F
+Icon=audio-x-generic
+Terminal=false
+MimeType=audio/*;video/*;
+Categories=AudioVideo;
