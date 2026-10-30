@@ -84,6 +84,12 @@ Each release has two zips and their MD5 sums:
 
 Besides the built DLLs, the zips contain `Data/ui/flash/*.mfl` (edited copies of the game's Flash UI files) and `Data/Video/*.prx` (export profiles derived from the game's own). Both are modified game data and only useful with a copy of the game. The tools that produced them are in `mfl/` and `tools/`.
 
+## AI assistance
+
+This project was built with a lot of help from an AI coding assistant (Claude Code, by Anthropic), which wrote much of the code and the notes in `docs/`. A person directed the work and tested it by playing the game.
+
+It works on the setup it was tested on (GE-Proton 10-33 on Linux), and the Windows build is still experimental. It's provided as is, so it's worth backing up your game folder before installing. The source is all here if you'd like to see what the DLLs do.
+
 ## Licence
 
 GPL-3.0-or-later; see `LICENSE` and `NOTICE.md`. The shim is statically linked with x264 (GPL) and FFmpeg, so the DLLs as released are GPL and this repository is their complete source.
